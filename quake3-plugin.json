@@ -1,0 +1,26 @@
+{
+  "name": "quake3",
+  "summary": "quake 3 server Plugin",
+  "description": "quake 3 Plugin",
+  "maintainer": "IE team",
+  "version": "0.1",
+  "vars": {
+    "Name": {
+      "type": "string"
+    },
+    "SleepTime": {
+      "type": "string"
+    },
+    "Output": {
+      "type": "string",
+      "generated": true
+    },
+    "Game": {
+      "type": "string"
+    },
+    "NetworkPort": {
+      "type": "string"
+    }
+  },
+  "container": "quake3:latest"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "q3server",
+  "plugin": "quake3",
+  "description": "Quake 3 service",
+  "vars": {
+    "Name": {
+      "value": "q3server"
+    },
+    "SleepTime": {
+      "value": "20s"
+    },
+    "Game": {
+      "value": "q3server"
+    },
+    "NetworkPort": {
+      "value": "27960"
+    }
+  },
+  "disabled": false,
+  "site": "LWR"
+}
